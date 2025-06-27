@@ -11,7 +11,7 @@ API_ID = int(getenv("API_ID", "28294093"))
 
 API_HASH = getenv("API_HASH", "f24d982c45ab2f69a6cb8c0fee9630bd")
 
-BOT_TOKEN = getenv("BOT_TOKEN", "7730168537:AAG4pq69SiOZ77uhZMXTcFSFg73DDlAD35I")
+BOT_TOKEN = getenv("BOT_TOKEN", "7730168537:AAFWobXne-Z9gkBEwRodLOiXUQ0Kf4wLETk")
 
 MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://parice819:fOJsdMBDj7xMKVFW@cluster0.str54m7.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 
