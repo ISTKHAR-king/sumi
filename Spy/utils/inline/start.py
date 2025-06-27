@@ -26,11 +26,14 @@ def private_panel(_):
         ],
         [InlineKeyboardButton(text=_["S_B_4"], callback_data="settings_back_helper")],
         [
-            InlineKeyboardButton(text=_["S_B_2"], callback_data="dil_spy"),
-            InlineKeyboardButton(text=_["S_B_7"], callback_data="gib_source"),
+            InlineKeyboardButton(text=_["S_B_5"], user_id=config.OWNER_ID),
+            InlineKeyboardButton(text=_["S_B_6"], url=config.SUPPORT_CHANNEL),
         ],
         [
-            InlineKeyboardButton("• ʙᴏᴛ ɪɴғᴏ •", callback_data="bot_info_data"),
+            InlineKeyboardButton(text=_["S_B_2"], url=config.SUPPORT_CHAT),
         ],
+        [InlineKeyboardButton(text="📱 Movies+Web series+Anime 🦋", url=f"https://t.me/+5Hsgtp8rV81lMTc1")],
+    
     ]
+    
     return buttons
