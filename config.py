@@ -7,13 +7,13 @@ from pyrogram import filters
 load_dotenv()
 
 
-API_ID = int(getenv("API_ID", "24081339"))
+API_ID = int(getenv("API_ID", ""))
 
-API_HASH = getenv("API_HASH", "52ef4637744116982ed28210da47a5bd")
+API_HASH = getenv("API_HASH", "")
 
-BOT_TOKEN = getenv("BOT_TOKEN", "6815304449:AAESc6FsFkmOG2PNUd1r7_XBTklS5Ab6I50")
+BOT_TOKEN = getenv("BOT_TOKEN", "")
 
-MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://parice819:fOJsdMBDj7xMKVFW@cluster0.str54m7.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+MONGO_DB_URI = getenv("MONGO_DB_URI", "")
 
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 54000))
 
@@ -21,9 +21,9 @@ SONG_DOWNLOAD_DURATION = int(
     getenv("SONG_DOWNLOAD_DURATION_LIMIT", "54000")
 )
 
-LOGGER_ID = int(getenv("LOGGER_ID", -1002551836060))
+LOGGER_ID = int(getenv("LOGGER_ID", ))
 
-OWNER_ID = int(getenv("OWNER_ID", "8142003954"))
+OWNER_ID = int(getenv("OWNER_ID", ""))
 
 BOT_USERNAME = getenv("BOT_USERNAME" , "Riya_musiczx_bot")
 
@@ -70,7 +70,7 @@ TG_VIDEO_FILESIZE_LIMIT = int(getenv("TG_VIDEO_FILESIZE_LIMIT", 21474836480))
 
 
 # Get your pyrogram v2 session from @Shsusu_bot on Telegram
-STRING1 = getenv("STRING_SESSION", "BQFvc7sAJdx1UZtOCxVt9z13QOU6HEMPhbUMi_PJy5zb9XLMG0ghogqBJlVGyeKuBKvhncDCZiaV-HIghBz3m_BYbJF9rDiIrUX0hZaSuw5TpwDjTPt5AVOAPRYFMtxT7pzHLcFHaQsPp8chAx58s4zjB9Zjrmq3mj8MFvg2ETMahzZIEQ2gx1qn4iE2CwB4tFl6HQQ1sJHOajzD_yAmGtv56p9l177pO63FFLWcp2znjJwQcYLuRuIw8LE0hY4zftwYgLv891sGuKS3myh416hd1llDJ0fD3GN3VaCX3m0bR-v6xELasTwWdF0qkPrIMwjBCLkkTF2Eqi5qgfTzvWeZRBodZgAAAAGYbGLMAA")
+STRING1 = getenv("STRING_SESSION", "")
 STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
