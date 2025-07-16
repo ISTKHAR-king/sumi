@@ -7,11 +7,11 @@ from pyrogram import filters
 load_dotenv()
 
 
-API_ID = int(getenv("API_ID", "28294093"))
+API_ID = int(getenv("API_ID", "24081339"))
 
-API_HASH = getenv("API_HASH", "f24d982c45ab2f69a6cb8c0fee9630bd")
+API_HASH = getenv("API_HASH", "52ef4637744116982ed28210da47a5bd")
 
-BOT_TOKEN = getenv("BOT_TOKEN", "6815304449:AAHzee-0xh89yMtQb7hsQ6DUoySY92iOHDU")
+BOT_TOKEN = getenv("BOT_TOKEN", "6815304449:AAESc6FsFkmOG2PNUd1r7_XBTklS5Ab6I50")
 
 MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://parice819:fOJsdMBDj7xMKVFW@cluster0.str54m7.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 
@@ -70,7 +70,7 @@ TG_VIDEO_FILESIZE_LIMIT = int(getenv("TG_VIDEO_FILESIZE_LIMIT", 21474836480))
 
 
 # Get your pyrogram v2 session from @Shsusu_bot on Telegram
-STRING1 = getenv("STRING_SESSION", "BQGvu80ABzCuAmni0jfMMoqe6AGJ3CPoT8ZrtCHM_JmXSuRbqq3SUqHqWoxFATKbINtEeHVNTqXPBLkbR_VCZWED9ESlyMD2u5gzGgGtOx3eHgPsuHNWg2Ib3px9MRiRSjJ52muAgFO8FwKBiHfYwv8hm43TVBuyqCDen4gY6eWampzvNKwZ4ZOUnyTb9fKBmYog2EujiUHghmXkc4rJy81I6tFlvWytdrq2leG8LquNkuT_zaZsfKGqAwSUYRT0kiCXeNSf0869rO0ZyjN8mZlAuYQeBoPGknX5oUYIJLPt1vJ4Q1x0ZkcL0zkCoJEdWn3KhqNxKJSsg8Jo104HQB7i_V0GiQAAAAGG7CwdAA")
+STRING1 = getenv("STRING_SESSION", "BQFvc7sAJdx1UZtOCxVt9z13QOU6HEMPhbUMi_PJy5zb9XLMG0ghogqBJlVGyeKuBKvhncDCZiaV-HIghBz3m_BYbJF9rDiIrUX0hZaSuw5TpwDjTPt5AVOAPRYFMtxT7pzHLcFHaQsPp8chAx58s4zjB9Zjrmq3mj8MFvg2ETMahzZIEQ2gx1qn4iE2CwB4tFl6HQQ1sJHOajzD_yAmGtv56p9l177pO63FFLWcp2znjJwQcYLuRuIw8LE0hY4zftwYgLv891sGuKS3myh416hd1llDJ0fD3GN3VaCX3m0bR-v6xELasTwWdF0qkPrIMwjBCLkkTF2Eqi5qgfTzvWeZRBodZgAAAAGYbGLMAA")
 STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
