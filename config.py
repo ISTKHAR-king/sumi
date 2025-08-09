@@ -53,12 +53,8 @@ AUTO_SUGGESTION_TIME = int(
 SPOTIFY_CLIENT_ID = getenv("SPOTIFY_CLIENT_ID", None)
 SPOTIFY_CLIENT_SECRET = getenv("SPOTIFY_CLIENT_SECRET", None)
 
-YTPROXY_URL = getenv("YTPROXY_URL", 'https://tgapi.xbitcode.com') ## E.G https://yt.okflix.
-YT_API_KEY = "xbit_8OLNDEWF71UBS21ABH8MVJ"
-COOKIES_URL=getenv("COOKIES_URL" , "https://gist.githubusercontent.com/sparrow9616/f29fc6588086a3c72d92dd9c03773350/raw/4229f3f4aab4a6693fc0794d136d30f54d67ae85/gistfile1.txt")
-
-API_URL = getenv("API_URL", 'https://api.thequickearn.xyz') #youtube song url
-API_KEY = getenv("API_KEY", '30DxNexGenBots61b990') # youtube song api key, generate free key or buy paid plan from panel.thequickearn.xyz
+YOUR_API_URL = getenv("YOUR_API_URL", "http://46.38.237.240:8000")
+YOUR_API_KEY = getenv("YOUR_API_KEY", "cdd5414e1d154b16a8b289d207a30bc9") 
 
 
 PLAYLIST_FETCH_LIMIT = int(getenv("PLAYLIST_FETCH_LIMIT", 25))
