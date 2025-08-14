@@ -53,8 +53,9 @@ AUTO_SUGGESTION_TIME = int(
 SPOTIFY_CLIENT_ID = getenv("SPOTIFY_CLIENT_ID", None)
 SPOTIFY_CLIENT_SECRET = getenv("SPOTIFY_CLIENT_SECRET", None)
 
-YOUR_API_URL = getenv("YOUR_API_URL", "http://46.38.237.240:8000")
-YOUR_API_KEY = getenv("YOUR_API_KEY", "cdd5414e1d154b16a8b289d207a30bc9") 
+API_URL = getenv("API_URL", 'https://api.thequickearn.xyz') #youtube song url
+VIDEO_API_URL = getenv("VIDEO_API_URL", 'https://api.video.thequickearn.xyz')
+API_KEY = getenv("API_KEY", 'NxGBNexGenBotsdd043c') # 
 
 
 PLAYLIST_FETCH_LIMIT = int(getenv("PLAYLIST_FETCH_LIMIT", 25))
