@@ -33,9 +33,8 @@ HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
 
 HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 
-API_URL = getenv("API_URL", 'https://api.thequickearn.xyz') #youtube song url
-VIDEO_API_URL = getenv("VIDEO_API_URL", 'https://api.video.thequickearn.xyz')
-API_KEY = getenv("API_KEY", 'NxGBNexGenBots0bf9a0')
+YOUR_API_KEY = getenv("YOUR_API_KEY", "strangerapi2736ade96")
+YOUR_API_URL = getenv("YOUR_API_URL", "http://165.22.220.188:8000")
 
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
