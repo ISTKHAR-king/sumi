@@ -33,9 +33,6 @@ HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
 
 HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 
-API_BASE_URL = "http://165.22.220.188:8000"
-API_KEY = os.getenv("API_KEY", "strangerapi2736ade96")
-
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
     "https://github.com/KingOfMusicBot/rzx",
