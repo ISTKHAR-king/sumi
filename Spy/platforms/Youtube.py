@@ -30,8 +30,9 @@ import logging
 import aiohttp
 from Spy import LOGGER
 from urllib.parse import urlparse
-from config import YOUR_API_URL, YOUR_API_KEY
 
+API_BASE_URL = "http://165.22.220.188:8000"
+API_KEY = os.getenv("YT_API_KEY", "strangerapi2736ade96")
 
 async def get_telegram_file(telegram_url: str, video_id: str, file_type: str) -> str:
     logger = LOGGER("StrangerAPI/Youtube.py")
