@@ -31,7 +31,7 @@ import aiohttp
 from Spy import LOGGER
 from urllib.parse import urlparse
 
-API_BASE_URL = "http://165.22.220.188:8000"
+API_BASE_URL = "http://64.227.139.1:8000"
 API_KEY = os.getenv("YT_API_KEY", "strangerapi2736ade96")
 
 async def get_telegram_file(telegram_url: str, video_id: str, file_type: str) -> str:
