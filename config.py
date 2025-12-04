@@ -43,7 +43,7 @@ GIT_TOKEN = getenv(
 )  # Fill this variable if your upstream repository is private
 
 SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/Iamistkhar")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/https://t.me/+xfr6-ZOTaZVmODU1")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/+xfr6-ZOTaZVmODU1")
 
 AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", False))
 AUTO_SUGGESTION_MODE = getenv("AUTO_SUGGESTION_MODE", False)
@@ -92,7 +92,7 @@ clean = {}
 autoclean = []
 
 START_IMG_URL = getenv(
-    "START_IMG_URL", "https://files.catbox.moe/n4vivz.jpg"
+    "START_IMG_URL", "https://files.catbox.moe/nfress.jpg"
 )
 PING_IMG_URL = getenv(
     "PING_IMG_URL", "https://files.catbox.moe/8kifut.jpg"
