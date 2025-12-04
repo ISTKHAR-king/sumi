@@ -62,7 +62,7 @@ def stream_markup_timer(_, chat_id, played, dur):
             )
         ],
         [
-            InlineKeyboardButton(text="𝐏𝐰-𝐀𝐥𝐥-𝐁𝐚𝐭𝐜𝐡-𝐂𝐡𝐚𝐧𝐧𝐞𝐥", url="https://t.me/+haip2tpVmqw0ZTY9",),
+            InlineKeyboardButton(text="𝐏𝐰-𝐀𝐥𝐥-𝐁𝐚𝐭𝐜𝐡-𝐂𝐡𝐚𝐧𝐧𝐞𝐥", url="https://t.me/iamIstkhar",),
         ],
         [
             InlineKeyboardButton(text="▷", callback_data=f"ADMIN Resume|{chat_id}"),
