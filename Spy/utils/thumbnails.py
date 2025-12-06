@@ -19,7 +19,7 @@ from PIL import (
     ImageFont,
     ImageOps,
 )
-from Spy import VideosSearch
+from Spy.youtube_search import VideosSearch 
 from config import YOUTUBE_IMG_URL
 
 
